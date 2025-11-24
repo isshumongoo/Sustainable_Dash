@@ -123,26 +123,14 @@ Copy code
 ## Step 1 — Install dependencies
 pip install -r requirements.txt
 
-shell
-Copy code
-
 ## Step 2 — Fetch data
 python fetch_data.py
-
-graphql
-Copy code
 
 ## Step 3 — Train the AQI model
 python train_aqi_model.py
 
-shell
-Copy code
-
 ## Step 4 — Run the Streamlit dashboard
 streamlit run app/streamlit_app.py
-
-yaml
-Copy code
 
 ---
 
@@ -154,9 +142,6 @@ backgroundColor = "#F6FAF4"
 secondaryBackgroundColor = "#DAE5D0"
 textColor = "#1F3B1C"
 font = "sans serif"
-
-yaml
-Copy code
 
 ---
 
